@@ -1,72 +1,68 @@
-body{
-    
-    /* The image used */
-    background-image: url("Mount-Kenya.jpg");
+body {
+  /* The image used */
+  background-image: url("Mount-Kenya.jpg");
 
-    /* Full height */
-    height: 100%; 
-    
+  /* Full height */
+  height: 100%;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top:10%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10%;
 }
-.max{
-    padding:20px; 
-    align-content: center; 
-    text-align: center;
-    font-size: 19px ;
-    font-style:Georgia, serif;
-    -webkit-align-content: center;
-    align-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    background-color: white;
-    margin-top: 10px;
-    border-radius: 10px;
-   
-
+.max {
+  padding: 20px;
+  align-content: center;
+  text-align: center;
+  font-size: 19px;
+  font-style: Georgia, serif;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
-.form{
-    background-color: white;
-    border-radius: 20px;
-    padding: 15px;
-    opacity: 0.9;
-   
-
+.form {
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  opacity: 0.9;
 }
-.submit{
-    position: relative;
+.submit {
+  position: relative;
 }
-.items{
-    padding:20px 0 40px; 
-    align-content: center; 
-    text-align: center;
-    -webkit-align-content: center;
-    align-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    background-color: transparent white;
-    margin: 10px;
+.items {
+  padding: 20px 0 40px;
+  align-content: center;
+  text-align: center;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: transparent white;
+  margin: 10px;
 }
-body, html {
-    height: 100%;
-    margin: 0;
-    width: 100vw;
-    overflow-x:hidden;
-    
+body,
+html {
+  height: 100%;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
-input:focus, input[type]:focus, .uneditable-input:focus {   
-    border-color: green;
-    box-shadow: 0 1px 1px rgba(0, 255, 0, 0) inset, 0 0 8px rgba(0, 255, 0, 0);
-    outline: 0 none;
+input:focus,
+input[type]:focus,
+.uneditable-input:focus {
+  border-color: green;
+  box-shadow: 0 1px 1px rgba(0, 255, 0, 0) inset, 0 0 8px rgba(0, 255, 0, 0);
+  outline: 0 none;
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
-img{
-    opacity: 0.8;
+img {
+  opacity: 0.8;
 }
